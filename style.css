@@ -4,14 +4,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 :root {
   --bg-color: #032541;
   --primary-color: #47597e;
   --text-color: #da7f8f;
   --secondary-color: #fff;
 }
-
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg-color);
@@ -43,7 +41,6 @@ main {
   display: flex;
   flex-wrap: wrap;
 }
-
 .card {
   position: relative;
   background-color: var(--primary-color);
@@ -71,7 +68,6 @@ main {
   padding: 3px;
   font-weight: 600;
 }
-
 .overview {
   position: absolute;
   background: var(--secondary-color);
@@ -83,7 +79,6 @@ main {
   transform: translateY(101%);
   transition: all 0.3s linear;
 }
-
 .card:hover .overview {
   transform: translateY(0%);
   height: 100%;
